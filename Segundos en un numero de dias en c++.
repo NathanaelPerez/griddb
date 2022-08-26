@@ -1,0 +1,24 @@
+// Ejercicio4: Construye un programa en C++  que calcule e imprima el número de segundos que hay en un determinado número de días.  
+// El número de día será introducido vía teclado.
+
+// El dia tiene 86400 segundos.
+
+
+#include<iostream>
+
+using namespace std; 
+
+int main() 
+{
+  int dias, seg ;
+
+  cout << "\nIngrese el valor de los dias: " << endl;
+  cin >> dias;
+
+  seg = dias * 86400;
+ 
+  cout << "\nEl valor de "<< dias << " dias a segundos son " << seg << " segundos." << endl;
+
+
+    system("pause");
+}
